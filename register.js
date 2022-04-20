@@ -53,9 +53,6 @@ const processEntries = () => {
     if (terms.checked == false) {
         msgs[msgs.length] = "You must agree to the terms of service."; 
     }
-    // if (comments.value == "") {
-    //     msgs[msgs.length] = "You must enter a comment.";
-    // }
 
     // submit the form or notify user of errors
     if (msgs.length == 0) {  // no error messages
